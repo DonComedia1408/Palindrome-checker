@@ -3,7 +3,7 @@ document.getElementById("check-btn").addEventListener("click", function() {
     const resultElement = document.getElementById("result");
 
     if (!inputText) {
-        alert("Please input a value.");
+        alert("Por favor, ponga un valor.");
         return;
     }
 
@@ -15,6 +15,6 @@ document.getElementById("check-btn").addEventListener("click", function() {
 
     // Display result
     resultElement.textContent = isPalindrome 
-        ? `${inputText} is a palindrome.` 
-        : `${inputText} is not a palindrome.`;
+        ? `${inputText} es un palindromo.` 
+        : `${inputText} no es un palindromo.`;
 });
